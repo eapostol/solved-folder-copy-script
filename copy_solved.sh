@@ -45,7 +45,7 @@ else
 		then
 			act="${dir##*/}"
 			echo "Copying $act"
-			cp -ar $dir/Solved $destDir/$act
+			cp -a $dir/Solved $destDir/$act
 
 		fi
 		n=$((n+1))
